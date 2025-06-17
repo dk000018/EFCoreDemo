@@ -2,33 +2,23 @@
 
 This project demonstrates how to set up Entity Framework Core with a SQLite database in an ASP.NET Core Web API project.
 
-## ✅ Tech Stack
-
-- ASP.NET Core (.NET 8)
-- Entity Framework Core
-- SQLite
-- Swagger / OpenAPI
-
----
-
 ## 📁 Project Structure
 
+```
 MyApp/
 ├── Controllers/
-│ └── UserController.cs
+│   └── UserController.cs
 ├── Data/
-│ └── UserContext.cs
+│   └── UserContext.cs
 ├── DTOs/
-│ ├── UserPostDTO.cs
-│ └── UserGetDTO.cs
+│   ├── UserPostDTO.cs
+│   └── UserGetDTO.cs
 ├── Entities/
-│ └── UserEntity.cs
+│   └── UserEntity.cs
 ├── Migrations/
 ├── Program.cs
 ├── appsettings.json
-
----
-
+```
 ## ⚙️ Setup Instructions
 
 ### 1. Prerequisites
